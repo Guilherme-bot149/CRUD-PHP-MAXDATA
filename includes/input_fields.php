@@ -51,7 +51,7 @@ while($rows = mysqli_fetch_assoc($result)){
     <hr>
 
 <form action="config/editar_cliente.php?id=<?php echo $id?>" method="POST">
-    <div style="width: 5%; display: inline-flex; align-items: center;" class="form-group col-md-1">
+    <div style="display: inline-flex; align-items: center;" class="form-group col-md-1">
             <label style="margin-right: 8%;">ID</label>
             <input class="form-control" value="<?php echo $id?>" disabled>
         </div>
